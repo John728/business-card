@@ -1,0 +1,138 @@
+body {
+    font-family: Inter, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(40, 45, 53);
+    color: white;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+}
+
+.container {
+    margin: auto;
+    background-color: rgb(25, 28, 32);
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    transition: opacity 0.8s;
+    transition: box-shadow 0.8s ease-out;
+}
+
+.container:hover {
+    opacity: 0.98;
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
+}
+
+.photo {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.name {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.roll {
+    margin: 0;
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
+
+.sub-roll {
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email-button {
+    width: 30%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    margin: 5px;
+    margin-top: 15px;
+    align-items: center;
+    transition: opacity 0.35;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.email-button:hover {
+    transition: opacity 0.15;
+    opacity: 0.8;
+}
+
+.email-button:active {
+    transition: opacity 0.15;
+    opacity: 0.4;
+}
+
+.email-image-button {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.email-tag {
+    margin: 0;
+}
+
+.sub-heading {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text {
+    font-size: small;
+    margin: 0;
+    margin-block: 5px;
+    color: rgb(156, 154, 154);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(15, 16, 19);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-block: 10px;
+    margin-top: 15px;
+}
+
+.footer-icon {
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
